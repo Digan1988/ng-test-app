@@ -8,6 +8,7 @@ import { PostsService } from '../posts.service';
 })
 export class PostsComponent implements OnInit {
   posts: any = [];
+
   constructor(private postsService: PostsService) { }
 
   ngOnInit() {
