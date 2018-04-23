@@ -3,14 +3,14 @@ import { NgModule } from '@angular/core';
 import { FormsModule }    from '@angular/forms';
 import { HttpClientModule }    from '@angular/common/http';
 
-import { RouterModule } from '@angular/router';
+import { RouterModule, Routes } from '@angular/router';
 
 import { AppComponent } from './app.component';
 import { PostsComponent } from './posts/posts.component';
 
 import { PostsService } from './posts.service';
 
-const ROUTES = [
+const ROUTES: Routes = [
   {
     path: '',
     redirectTo: 'posts',
